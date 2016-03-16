@@ -1,0 +1,19 @@
+# Exclue the build directory
+build/*
+
+# Exclue temp nibs and swap files
+*~.nib
+*.swp
+
+# Exclue OS X folder attributes
+.DS_Store
+
+# Exclue user-specific Xcode 3 and 5 files
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+xcuserdata
+xcuserstate 

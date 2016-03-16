@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E42006AF395B79A5A621507 /* libPods-XMPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D5AA8325FEF75E170EE52E /* libPods-XMPP.a */; };
+		BCF249F41C8BCFE0007CF757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF249F31C8BCFE0007CF757 /* main.m */; };
+		BCF249F71C8BCFE0007CF757 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF249F61C8BCFE0007CF757 /* AppDelegate.m */; };
+		BCF249FA1C8BCFE0007CF757 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF249F91C8BCFE0007CF757 /* ViewController.m */; };
+		BCF249FD1C8BCFE0007CF757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF249FB1C8BCFE0007CF757 /* Main.storyboard */; };
+		BCF249FF1C8BCFE0007CF757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF249FE1C8BCFE0007CF757 /* Assets.xcassets */; };
+		BCF24A021C8BCFE0007CF757 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF24A001C8BCFE0007CF757 /* LaunchScreen.storyboard */; };
+		BCF24A0D1C8BCFE1007CF757 /* XMPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF24A0C1C8BCFE1007CF757 /* XMPPTests.m */; };
+		BCF24A181C8BCFE1007CF757 /* XMPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF24A171C8BCFE1007CF757 /* XMPPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCF24A091C8BCFE1007CF757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF249E71C8BCFE0007CF757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF249EE1C8BCFE0007CF757;
+			remoteInfo = XMPP;
+		};
+		BCF24A141C8BCFE1007CF757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF249E71C8BCFE0007CF757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF249EE1C8BCFE0007CF757;
+			remoteInfo = XMPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8422E4398E6E52AF772BC9E7 /* Pods-XMPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMPP/Pods-XMPP.release.xcconfig"; sourceTree = "<group>"; };
+		BCF249EF1C8BCFE0007CF757 /* XMPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF249F31C8BCFE0007CF757 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCF249F51C8BCFE0007CF757 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCF249F61C8BCFE0007CF757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCF249F81C8BCFE0007CF757 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCF249F91C8BCFE0007CF757 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCF249FC1C8BCFE0007CF757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCF249FE1C8BCFE0007CF757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCF24A011C8BCFE0007CF757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCF24A031C8BCFE1007CF757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF24A081C8BCFE1007CF757 /* XMPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF24A0C1C8BCFE1007CF757 /* XMPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPTests.m; sourceTree = "<group>"; };
+		BCF24A0E1C8BCFE1007CF757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF24A131C8BCFE1007CF757 /* XMPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF24A171C8BCFE1007CF757 /* XMPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPUITests.m; sourceTree = "<group>"; };
+		BCF24A191C8BCFE1007CF757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DBEA28ED5AC9BB472B4D85 /* Pods-XMPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMPP/Pods-XMPP.debug.xcconfig"; sourceTree = "<group>"; };
+		F7D5AA8325FEF75E170EE52E /* libPods-XMPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XMPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCF249EC1C8BCFE0007CF757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E42006AF395B79A5A621507 /* libPods-XMPP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF24A051C8BCFE1007CF757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF24A101C8BCFE1007CF757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A674D64F9EEE15C845286CB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7DBEA28ED5AC9BB472B4D85 /* Pods-XMPP.debug.xcconfig */,
+				8422E4398E6E52AF772BC9E7 /* Pods-XMPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCF249E61C8BCFE0007CF757 = {
+			isa = PBXGroup;
+			children = (
+				BCF249F11C8BCFE0007CF757 /* XMPP */,
+				BCF24A0B1C8BCFE1007CF757 /* XMPPTests */,
+				BCF24A161C8BCFE1007CF757 /* XMPPUITests */,
+				BCF249F01C8BCFE0007CF757 /* Products */,
+				A674D64F9EEE15C845286CB0 /* Pods */,
+				DB5F755E8F1E44824D6A9AD3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCF249F01C8BCFE0007CF757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF249EF1C8BCFE0007CF757 /* XMPP.app */,
+				BCF24A081C8BCFE1007CF757 /* XMPPTests.xctest */,
+				BCF24A131C8BCFE1007CF757 /* XMPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF249F11C8BCFE0007CF757 /* XMPP */ = {
+			isa = PBXGroup;
+			children = (
+				BCF249F51C8BCFE0007CF757 /* AppDelegate.h */,
+				BCF249F61C8BCFE0007CF757 /* AppDelegate.m */,
+				BCF249F81C8BCFE0007CF757 /* ViewController.h */,
+				BCF249F91C8BCFE0007CF757 /* ViewController.m */,
+				BCF249FB1C8BCFE0007CF757 /* Main.storyboard */,
+				BCF249FE1C8BCFE0007CF757 /* Assets.xcassets */,
+				BCF24A001C8BCFE0007CF757 /* LaunchScreen.storyboard */,
+				BCF24A031C8BCFE1007CF757 /* Info.plist */,
+				BCF249F21C8BCFE0007CF757 /* Supporting Files */,
+			);
+			path = XMPP;
+			sourceTree = "<group>";
+		};
+		BCF249F21C8BCFE0007CF757 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCF249F31C8BCFE0007CF757 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCF24A0B1C8BCFE1007CF757 /* XMPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF24A0C1C8BCFE1007CF757 /* XMPPTests.m */,
+				BCF24A0E1C8BCFE1007CF757 /* Info.plist */,
+			);
+			path = XMPPTests;
+			sourceTree = "<group>";
+		};
+		BCF24A161C8BCFE1007CF757 /* XMPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF24A171C8BCFE1007CF757 /* XMPPUITests.m */,
+				BCF24A191C8BCFE1007CF757 /* Info.plist */,
+			);
+			path = XMPPUITests;
+			sourceTree = "<group>";
+		};
+		DB5F755E8F1E44824D6A9AD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7D5AA8325FEF75E170EE52E /* libPods-XMPP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCF249EE1C8BCFE0007CF757 /* XMPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF24A1C1C8BCFE1007CF757 /* Build configuration list for PBXNativeTarget "XMPP" */;
+			buildPhases = (
+				A62096BCA0B6991C6DACF4F3 /* Check Pods Manifest.lock */,
+				BCF249EB1C8BCFE0007CF757 /* Sources */,
+				BCF249EC1C8BCFE0007CF757 /* Frameworks */,
+				BCF249ED1C8BCFE0007CF757 /* Resources */,
+				9E7E8277FD98F6D5725B1A5A /* Embed Pods Frameworks */,
+				B629ED04A8ADC2CEFB22E18B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMPP;
+			productName = XMPP;
+			productReference = BCF249EF1C8BCFE0007CF757 /* XMPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCF24A071C8BCFE1007CF757 /* XMPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF24A1F1C8BCFE1007CF757 /* Build configuration list for PBXNativeTarget "XMPPTests" */;
+			buildPhases = (
+				BCF24A041C8BCFE1007CF757 /* Sources */,
+				BCF24A051C8BCFE1007CF757 /* Frameworks */,
+				BCF24A061C8BCFE1007CF757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF24A0A1C8BCFE1007CF757 /* PBXTargetDependency */,
+			);
+			name = XMPPTests;
+			productName = XMPPTests;
+			productReference = BCF24A081C8BCFE1007CF757 /* XMPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCF24A121C8BCFE1007CF757 /* XMPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF24A221C8BCFE1007CF757 /* Build configuration list for PBXNativeTarget "XMPPUITests" */;
+			buildPhases = (
+				BCF24A0F1C8BCFE1007CF757 /* Sources */,
+				BCF24A101C8BCFE1007CF757 /* Frameworks */,
+				BCF24A111C8BCFE1007CF757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF24A151C8BCFE1007CF757 /* PBXTargetDependency */,
+			);
+			name = XMPPUITests;
+			productName = XMPPUITests;
+			productReference = BCF24A131C8BCFE1007CF757 /* XMPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCF249E71C8BCFE0007CF757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HT;
+				TargetAttributes = {
+					BCF249EE1C8BCFE0007CF757 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BCF24A071C8BCFE1007CF757 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BCF249EE1C8BCFE0007CF757;
+					};
+					BCF24A121C8BCFE1007CF757 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BCF249EE1C8BCFE0007CF757;
+					};
+				};
+			};
+			buildConfigurationList = BCF249EA1C8BCFE0007CF757 /* Build configuration list for PBXProject "XMPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCF249E61C8BCFE0007CF757;
+			productRefGroup = BCF249F01C8BCFE0007CF757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCF249EE1C8BCFE0007CF757 /* XMPP */,
+				BCF24A071C8BCFE1007CF757 /* XMPPTests */,
+				BCF24A121C8BCFE1007CF757 /* XMPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCF249ED1C8BCFE0007CF757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF24A021C8BCFE0007CF757 /* LaunchScreen.storyboard in Resources */,
+				BCF249FF1C8BCFE0007CF757 /* Assets.xcassets in Resources */,
+				BCF249FD1C8BCFE0007CF757 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF24A061C8BCFE1007CF757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF24A111C8BCFE1007CF757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E7E8277FD98F6D5725B1A5A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMPP/Pods-XMPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A62096BCA0B6991C6DACF4F3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B629ED04A8ADC2CEFB22E18B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMPP/Pods-XMPP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCF249EB1C8BCFE0007CF757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF249FA1C8BCFE0007CF757 /* ViewController.m in Sources */,
+				BCF249F71C8BCFE0007CF757 /* AppDelegate.m in Sources */,
+				BCF249F41C8BCFE0007CF757 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF24A041C8BCFE1007CF757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF24A0D1C8BCFE1007CF757 /* XMPPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF24A0F1C8BCFE1007CF757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF24A181C8BCFE1007CF757 /* XMPPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCF24A0A1C8BCFE1007CF757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF249EE1C8BCFE0007CF757 /* XMPP */;
+			targetProxy = BCF24A091C8BCFE1007CF757 /* PBXContainerItemProxy */;
+		};
+		BCF24A151C8BCFE1007CF757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF249EE1C8BCFE0007CF757 /* XMPP */;
+			targetProxy = BCF24A141C8BCFE1007CF757 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCF249FB1C8BCFE0007CF757 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF249FC1C8BCFE0007CF757 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCF24A001C8BCFE0007CF757 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF24A011C8BCFE0007CF757 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCF24A1A1C8BCFE1007CF757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCF24A1B1C8BCFE1007CF757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCF24A1D1C8BCFE1007CF757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7DBEA28ED5AC9BB472B4D85 /* Pods-XMPP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.divtao.XMPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCF24A1E1C8BCFE1007CF757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8422E4398E6E52AF772BC9E7 /* Pods-XMPP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.divtao.XMPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCF24A201C8BCFE1007CF757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XMPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.divtao.XMPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMPP.app/XMPP";
+			};
+			name = Debug;
+		};
+		BCF24A211C8BCFE1007CF757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XMPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.divtao.XMPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMPP.app/XMPP";
+			};
+			name = Release;
+		};
+		BCF24A231C8BCFE1007CF757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XMPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.divtao.XMPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMPP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BCF24A241C8BCFE1007CF757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XMPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.divtao.XMPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMPP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCF249EA1C8BCFE0007CF757 /* Build configuration list for PBXProject "XMPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF24A1A1C8BCFE1007CF757 /* Debug */,
+				BCF24A1B1C8BCFE1007CF757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF24A1C1C8BCFE1007CF757 /* Build configuration list for PBXNativeTarget "XMPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF24A1D1C8BCFE1007CF757 /* Debug */,
+				BCF24A1E1C8BCFE1007CF757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF24A1F1C8BCFE1007CF757 /* Build configuration list for PBXNativeTarget "XMPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF24A201C8BCFE1007CF757 /* Debug */,
+				BCF24A211C8BCFE1007CF757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF24A221C8BCFE1007CF757 /* Build configuration list for PBXNativeTarget "XMPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF24A231C8BCFE1007CF757 /* Debug */,
+				BCF24A241C8BCFE1007CF757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCF249E71C8BCFE0007CF757 /* Project object */;
+}
